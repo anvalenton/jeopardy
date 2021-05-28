@@ -1,2 +1,0 @@
-# jeopardy
-Jeopardy type project
