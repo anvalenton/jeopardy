@@ -1,0 +1,15 @@
+{
+  "name": "jeopardy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jeopardy.js",
+  "dependencies": {
+    "gsap": "file:gsap-bonus.tgz"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

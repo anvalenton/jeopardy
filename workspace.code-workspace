@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../jquery movies app"
+		},
+		{
+			"path": "../../bootstrap-mocks 2"
+		},
+		{
+			"path": "../../ajax-giphy-party"
+		},
+		{
+			"path": "../../bootstrap-5.0.0-beta1"
+		},
+		{
+			"path": "../../connect-four"
+		},
+		{
+			"path": "../../apis-tvmaze"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jeopardy"
+	}
+}
