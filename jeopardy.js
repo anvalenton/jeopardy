@@ -52,6 +52,14 @@ async function getCategoryIds() {
     
     while (categories.length < 7) {
 
+//         const HttpsProxyAgent = require("https-proxy-agent"),
+//       axios = require("axios");
+
+//     const httpsAgent = new HttpsProxyAgent({host: "proxyhost", port: "proxyport", auth:     "username:password"})
+
+// //use axios as you normally would, but specify httpsAgent in the config
+//     axios = axios.create({httpsAgent});
+
     let response = await axios.get("https://jservice.io/api/random", {params: {count: 1}});
     let randomCategoryID = response.data[0].category.id;
     let cluesCheck = await axios.get("https://jservice.io/api/clues", {params: {category: randomCategoryID}});
@@ -68,7 +76,8 @@ async function getCategoryIds() {
  }
 
  catch {
-     console.log('error with getCategoryID func!')
+     console.log('error with getCategoryID func!');
+     console.log(response);
  }
 
  return categories;
