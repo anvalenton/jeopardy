@@ -101,7 +101,7 @@ async function getCategoryClues(catId) {
 try {
     let finalCluesArray = []
 
-    let clues = await axios.get("http://jservice.io/api/clues", {params: {category: catId}})
+    let clues = await axios.get("https://jservice.io/api/clues", {params: {category: catId}})
     
     let totalAvailableClues = clues.data.length;
     //this cluesIndexArray array holds random numbers that are less than the maximum number of available clues for the category. the array length is 5 because that is the number of clues needed per category for the game
