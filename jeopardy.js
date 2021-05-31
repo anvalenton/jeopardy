@@ -52,9 +52,9 @@ async function getCategoryIds() {
     
     while (categories.length < 7) {
 
-    let response = await axios.get("http://jservice.io/api/random", {params: {count: 1}});
+    let response = await axios.get("https://jservice.io/api/random", {params: {count: 1}});
     let randomCategoryID = response.data[0].category.id;
-    let cluesCheck = await axios.get("http://jservice.io/api/clues", {params: {category: randomCategoryID}});
+    let cluesCheck = await axios.get("https://jservice.io/api/clues", {params: {category: randomCategoryID}});
     let numOfClues = cluesCheck.data.length;
     //soj
     if (numOfClues > 20) {
