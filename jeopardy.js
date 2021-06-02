@@ -239,16 +239,16 @@ function hideLoadingView() {
     })
     .to(arrOfTh, {
         display: "table-cell",
-        width: "230px",
-        height: "180px",
+        // width: "10px",
+        // height: "10px",
         stagger: .5,
         opacity: 1
 
     })
     .to(arrOfTd, {
         display: "table-cell",
-        width: "230px",
-        height: "180px",
+        // width: "10px",
+        // height: "10px",
         stagger: .2,
         opacity: 1
 
