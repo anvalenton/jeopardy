@@ -1,176 +1,179 @@
 body {
-	display: grid;
-	grid-template-columns: 10% 80% 10%;
-	grid-template-rows: 5% 90% 5%;
-	justify-items: center;
-	grid-auto-rows: minmax(10px, auto);
-	height: 100%;
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: 5% 93% 2%;
+  justify-items: center;
+  grid-auto-rows: minmax(3px, auto);
+  height: 100%;
 }
 
 html {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	max-height: 100vh;
-	overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 table {
-	border-collapse: separate;
-	border-spacing: 20px;
-	table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 5px;
+  table-layout: fixed;
 }
 
 th,
 td {
-	display: none;
-	border: 3px solid #d4177f;
-	width: 0px;
-	height: 0px;
-	position: relative;
-	border-radius: 5%;
+  display: none;
+  border: 1px solid #d4177f;
+  width: 5vw;
+  height: 2vh;
+  position: relative;
+  border-radius: 5%;
 }
 
 td {
-	position: relative;
+  position: relative;
 }
 
 .containerparentdiv {
-	display: grid;
-	justify-items: center;
-	width: 100%;
-	height: fit-content;
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3;
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 #tabledivid {
-	justify-self: center;
-	width: 0px;
-	height: 0px;
-	padding: 0;
-	margin-right: 0%;
-	margin-bottom: 0%;
-	overflow: hidden;
-	display: none;
-	justify-content: center;
-	align-content: center;
+  justify-self: center;
+  height: 100%;
+  padding: 0;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  overflow: scroll;
+  display: none;
+  justify-content: center;
+  align-content: center;
 }
 
 #tablebody {
-	padding: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-left: 0px;
+  padding: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: 20vh;
+  overflow: auto;
 }
 
 .videoclass {
-	grid-column-start: 1;
-	grid-column-end: 4;
-	position: relative;
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	overflow: hidden;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .videosubcontainer {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 video {
-	height: 100%;
-	width: 177.77777778vh;
-	/* 100 * 16 / 9 */
-	min-width: 100%;
-	min-height: 56.25vw;
-	/* 100 * 9 / 16 */
+  height: 100%;
+  width: 177.77777778vh;
+  /* 100 * 16 / 9 */
+  min-width: 100%;
+  min-height: 56.25vw;
+  /* 100 * 9 / 16 */
 }
 
 #loadingdivcontainer {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	z-index: 5;
-	display: flex;
-	justify-content: center;
-	align-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 #loadingdiv {
-	background-color: #1b0d4e;
-	border-radius: 50%;
-	width: 800px;
-	height: 800px;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	align-self: center;
-	justify-self: center;
+  background-color: #1b0d4e;
+  border-radius: 50%;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  justify-self: center;
 }
 
 #buttondiv {
-	display: flex;
-	align-self: center;
-	justify-content: center;
+  display: flex;
+  align-self: center;
+  justify-content: center;
 }
 
 #startbutton {
-	z-index: 6;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	align-self: center;
-	margin-top: 100px;
-	opacity: 0;
-	background-color: #681a5b;
-	border: 0;
+  z-index: 6;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  align-self: center;
+  margin-top: 2vh;
+  opacity: 0;
+  background-color: #681a5b;
+  border: 0;
 }
 
 #startbutton:focus {
-	outline: 0;
+  outline: 0;
 }
 
 th {
-	text-align: center;
-	font-size: 30px;
-	color: whitesmoke;
-	font-family: 'Anton', sans-serif;
-	letter-spacing: .09em;
-	background-color: rgba(54, 102, 207, 0.5);
+  text-align: center;
+  font-size: 3vh;
+  color: whitesmoke;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: .09em;
+  background-color: rgba(54, 102, 207, 0.5);
 }
 
 td {
-	text-align: center;
-	font-size: 20px;
-	color: whitesmoke;
-	background-color: rgba(54, 102, 207, 0.5);
+  text-align: center;
+  font-size: 1vw;
+  color: whitesmoke;
+  background-color: rgba(54, 102, 207, 0.5);
 }
 
 .answerdiv {
-	display: none;
+  display: none;
 }
 
 .cluediv {
-	display: inline-block;
+  display: inline-block;
 }
 
 .coverdiv {
-	position: absolute;
-	background-color: #180472;
-	top: 0;
-	left: 0;
-	border-radius: 5%;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  background-color: #180472;
+  top: 0;
+  left: 0;
+  border-radius: 5%;
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=jeopardy.css.map */

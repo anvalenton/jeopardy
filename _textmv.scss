@@ -1,6 +1,7 @@
 th {
 	text-align: center;
-	font-size: 30px;
+	// font-size: 30px;
+	font-size: 3vh;
 	color: whitesmoke;
 	font-family: 'Anton', sans-serif;
 	letter-spacing: .09em;
@@ -10,7 +11,8 @@ th {
 
 td {
 	text-align: center;
-	font-size: 20px;
+	// font-size: 20px;
+	font-size: 1vw;
 	color: whitesmoke;
 	background-color: rgba($color: #3666cf, $alpha: .5);
 }
